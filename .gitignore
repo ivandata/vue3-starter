@@ -72,3 +72,5 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
+# Generated files
+src/theme/__generated__/

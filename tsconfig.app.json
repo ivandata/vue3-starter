@@ -1,6 +1,5 @@
 {
   "extends": "@vue/tsconfig/tsconfig.web.json",
-
   "references": [{ "path": "@vue/tsconfig/tsconfig.node.json" }],
   "include": [
     "env.d.ts",
@@ -24,7 +23,6 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
-
     "composite": true,
     "baseUrl": ".",
     "paths": {
