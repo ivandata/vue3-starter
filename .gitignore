@@ -3,6 +3,10 @@
 /.pnp
 .pnp.js
 
+# testing
+/coverage/lcov-report/
+/coverage/node_modules/
+
 # misc
 .DS_Store
 *.pem
@@ -71,3 +75,5 @@ fabric.properties
 
 # Generated files
 **/__generated__/
+dist
+dist-ssr
