@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import Vue from '@vitejs/plugin-vue'
+import VueTypeImports from 'vite-plugin-vue-type-imports'
 import { resolve } from 'path'
 
 export default defineConfig({
@@ -8,5 +9,5 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
-  plugins: [vue()],
+  plugins: [Vue(), VueTypeImports()],
 })
